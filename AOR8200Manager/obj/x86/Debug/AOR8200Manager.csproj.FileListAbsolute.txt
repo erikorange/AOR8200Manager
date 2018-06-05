@@ -1,0 +1,28 @@
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\bin\Debug\AOR8200Manager.exe
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\bin\Debug\AOR8200Manager.pdb
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\obj\x86\Debug\AOR8200Manager.Form1.resources
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\obj\x86\Debug\AOR8200Manager.Properties.Resources.resources
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\obj\x86\Debug\AOR8200Manager.exe
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\obj\x86\Debug\AOR8200Manager.pdb
+C:\Users\Erik\AppData\Local\Temporary Projects\AOR8200Manager\obj\x86\Debug\AOR8200Manager.MainForm.resources
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.exe
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\bin\Debug\AOR8200Manager.exe
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\bin\Debug\AOR8200Manager.pdb
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.MainForm.resources
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.Properties.Resources.resources
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.pdb
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\bin\Debug\AOR8200Manager.exe
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\bin\Debug\AOR8200Manager.pdb
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.csprojResolveAssemblyReference.cache
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.MainForm.resources
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.Properties.Resources.resources
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.csproj.GenerateResource.Cache
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.csproj.CoreCompileInputs.cache
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.exe
+C:\Users\Erik\Source\AOR8200Manager\AOR8200Manager\obj\x86\Debug\AOR8200Manager.pdb
