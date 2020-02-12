@@ -1,9 +1,0 @@
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\bin\Release\AOR8200Manager.exe
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\bin\Release\AOR8200Manager.pdb
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Release\ResolveAssemblyReference.cache
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Release\AOR8200Manager.MainForm.resources
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Release\AOR8200Manager.Properties.Resources.resources
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Release\GenerateResource.read.1.tlog
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Release\GenerateResource.write.1.tlog
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Release\AOR8200Manager.exe
-C:\Users\Erik\Documents\Projects\AOR8200Manager\AOR8200Manager\obj\x86\Release\AOR8200Manager.pdb
