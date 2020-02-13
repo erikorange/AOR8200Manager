@@ -5,6 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO.Ports;
+using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -38,6 +39,10 @@ namespace AOR8200Manager
             sp.DataReceived += new SerialDataReceivedEventHandler(sp_DataReceived);
             DebugSerial = false;
 
+            string filePath = @"C:\Users\Erik\Google Drive\Radio Files";
+            lblFilename.Text = filePath;
+            LoadDataFiles(filePath);
+
         }
 
 
@@ -48,24 +53,31 @@ namespace AOR8200Manager
             {
                 string filePath = folderBrowser.SelectedPath;
                 lblFilename.Text = filePath;
-
-                string bankFile = "AOR8200 Banks.csv";
-                string freqFile = "AOR8200 Frequencies.csv";
-
-                dtBanks = Utils.LoadTableFromCSV(filePath + @"\" + bankFile);
-                SetupBanksGridView(dtBanks);
-
-                dtFreqs = Utils.LoadTableFromCSV(filePath + @"\" + freqFile);
-
-                btnLoadBanks.Enabled = true;
-                btnLoadFreqs.Enabled = true;
+                LoadDataFiles(filePath);
             }
         }
 
-        private void SetupBanksGridView(DataTable dt)
+        private void LoadDataFiles(string filePath)
         {
-            dgvBanks.AutoGenerateColumns = true;
-            dgvBanks.DataSource = dt;
+            string bankFile = "AOR8200 Banks.csv";
+            string freqFile = "AOR8200 Frequencies.csv";
+
+            dtBanks = Utils.LoadTableFromCSV(filePath + @"\" + bankFile);
+            PopulateGridView(dgvBanks, dtBanks);
+
+            dtFreqs = Utils.LoadTableFromCSV(filePath + @"\" + freqFile);
+            PopulateGridView(dgvFreqs, dtFreqs);
+
+            btnLoadBanks.Enabled = true;
+            btnLoadFreqs.Enabled = true;
+        }
+
+
+        private void PopulateGridView(DataGridView gv, DataTable dt)
+        {
+            gv.AutoGenerateColumns = true;
+            gv.DataSource = dt;
+            gv.Width = gv.Columns.Cast<DataGridViewColumn>().Sum(x => x.Width) + (gv.RowHeadersVisible ? gv.RowHeadersWidth : 0) + 20;
         }
 
         private void btnSPCheckPort_Click(object sender, EventArgs e)
@@ -235,7 +247,7 @@ namespace AOR8200Manager
             });
         }
 
-        
+
 
         private void btnCancelFreqs_Click(object sender, EventArgs e)
         {
@@ -379,12 +391,23 @@ namespace AOR8200Manager
             if (cs == CheckState.Checked)
             {
                 DebugSerial = true;
+                txtUpdateBox.Visible = true;
             }
             else
             {
                 DebugSerial = false;
+                txtUpdateBox.Visible = false;
             }
         }
 
+        private void dgvBanks_SelectionChanged(object sender, EventArgs e)
+        {
+            dgvBanks.ClearSelection();
+        }
+
+        private void dgvFreqs_SelectionChanged(object sender, EventArgs e)
+        {
+            dgvFreqs.ClearSelection();
+        }
     }
 }
